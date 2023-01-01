@@ -1,7 +1,6 @@
 {% set name = "discord.py" %}
 {% set version = "2.1.0" %}
 
-
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -11,22 +10,21 @@ source:
   sha256: 027ccdd22b5bb66a9e19cbd8daa1bc74b49271a16a074d57e52f288fcfa208e8
 
 build:
-  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
+  number: 0
 
 requirements:
   host:
+    - python >=3.8
     - pip
-    - python >=3.5
   run:
-    - aiohttp >=3.6.0,<3.8.0
-    - python >=3.5
+    - python >=3.8
+    - aiohttp >=3.7.4,<4
 
 test:
   imports:
     - discord
-    - discord.ext.commands
   commands:
     - pip check
   requires:
