@@ -1,11 +1,11 @@
-About discord.py
-================
+About discord.py-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/discord.py-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Rapptz/discord.py
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/discord.py-feedstock/blob/master/LICENSE.txt)
 
 Summary: A Python wrapper for the Discord API
 
@@ -15,8 +15,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11576&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/discord.py-feedstock?branchName=master">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=11576&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/discord.py-feedstock?branchName=main">
       </a>
     </td>
   </tr>
