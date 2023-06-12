@@ -1,5 +1,5 @@
 {% set name = "discord.py" %}
-{% set version = "2.2.3" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/discord.py-{{ version }}.tar.gz
-  sha256: f9df95795c6f52c5db43b7ab43634993e12ef233288636a759166dd9c134d077
+  sha256: c71066a30f037d069218e59092505c3e8945fd175e396a80748056d989756806
 
 build:
   noarch: python
